@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/valtes/static/css/main.e62f0162.css",
+    "main.js": "/valtes/static/js/main.9437c164.js",
+    "static/media/background.jpg": "/valtes/static/media/background.a2da46a253db4a2142d6.jpg",
+    "static/media/obrabeni2.jpg": "/valtes/static/media/obrabeni2.4b24e76ba6cf4723349b.jpg",
+    "static/media/obrabeni1.jpg": "/valtes/static/media/obrabeni1.262229f1fded19450a62.jpg",
+    "static/media/valtes-logo.png": "/valtes/static/media/valtes-logo.1125c224089f3724bdf7.png",
+    "static/media/svareni.jpg": "/valtes/static/media/svareni.5916b12ddea302742155.jpg",
+    "static/media/zamecnicke.jpg": "/valtes/static/media/zamecnicke.d2e2612817d326b20cf6.jpg",
+    "static/media/dokumentace.jpg": "/valtes/static/media/dokumentace.8b9fa512113c4d6fc664.jpg",
+    "static/media/obrabeni.jpg": "/valtes/static/media/obrabeni.9a03a9a0a6bdb034f9ac.jpg",
+    "index.html": "/valtes/index.html",
+    "main.e62f0162.css.map": "/valtes/static/css/main.e62f0162.css.map",
+    "main.9437c164.js.map": "/valtes/static/js/main.9437c164.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e62f0162.css",
+    "static/js/main.9437c164.js"
+  ]
+}

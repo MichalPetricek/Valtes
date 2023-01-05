@@ -1,0 +1,43 @@
+.obrabeni{
+    background-color: rgb(226, 226, 226);
+    height: 100%;
+}
+.obrabeni-main{
+    color: black;
+    font-size: 5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 8%;
+    position: relative;
+}
+.main-2{
+    position: relative;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #60b3e5;
+}
+.grid2-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    grid-gap: 20px;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.text-soustruh,.text-freza{
+    font-size: 30px;
+}
+.obrabeni-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}

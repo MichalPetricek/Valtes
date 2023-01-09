@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/valtes/static/css/main.e62f0162.css",
-    "main.js": "/valtes/static/js/main.9437c164.js",
+    "main.css": "/valtes/static/css/main.15fd3d7d.css",
+    "main.js": "/valtes/static/js/main.cf8b0f57.js",
     "static/media/background.jpg": "/valtes/static/media/background.a2da46a253db4a2142d6.jpg",
-    "static/media/obrabeni2.jpg": "/valtes/static/media/obrabeni2.4b24e76ba6cf4723349b.jpg",
-    "static/media/obrabeni1.jpg": "/valtes/static/media/obrabeni1.262229f1fded19450a62.jpg",
+    "static/media/zamprace1.png": "/valtes/static/media/zamprace1.26f9645c1222e09dc06f.png",
+    "static/media/techdokum1.png": "/valtes/static/media/techdokum1.98dad19969d2c1c99d11.png",
+    "static/media/Svarovani1.png": "/valtes/static/media/Svarovani1.afb89f384f2878f02f02.png",
+    "static/media/obrabeni2.png": "/valtes/static/media/obrabeni2.5756c161ec4846c6c9c7.png",
+    "static/media/obrabeni1.png": "/valtes/static/media/obrabeni1.04d06894d66a2b417967.png",
     "static/media/valtes-logo.png": "/valtes/static/media/valtes-logo.1125c224089f3724bdf7.png",
     "static/media/svareni.jpg": "/valtes/static/media/svareni.5916b12ddea302742155.jpg",
     "static/media/zamecnicke.jpg": "/valtes/static/media/zamecnicke.d2e2612817d326b20cf6.jpg",
     "static/media/dokumentace.jpg": "/valtes/static/media/dokumentace.8b9fa512113c4d6fc664.jpg",
     "static/media/obrabeni.jpg": "/valtes/static/media/obrabeni.9a03a9a0a6bdb034f9ac.jpg",
     "index.html": "/valtes/index.html",
-    "main.e62f0162.css.map": "/valtes/static/css/main.e62f0162.css.map",
-    "main.9437c164.js.map": "/valtes/static/js/main.9437c164.js.map"
+    "main.15fd3d7d.css.map": "/valtes/static/css/main.15fd3d7d.css.map",
+    "main.cf8b0f57.js.map": "/valtes/static/js/main.cf8b0f57.js.map"
   },
   "entrypoints": [
-    "static/css/main.e62f0162.css",
-    "static/js/main.9437c164.js"
+    "static/css/main.15fd3d7d.css",
+    "static/js/main.cf8b0f57.js"
   ]
 }

@@ -6,7 +6,6 @@ import {LinkContainer} from 'react-router-bootstrap';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 function NavbarMenu() {
@@ -54,8 +53,8 @@ function NavbarMenu() {
               <NavItem>
                 <DropdownMenu></DropdownMenu>
               </NavItem>
-              <LinkContainer to="/stroje">
-              <Nav.Link>STROJE</Nav.Link>
+              <LinkContainer to="/technologie">
+              <Nav.Link>TECHNOLOGIE</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/kontakt">
               <Nav.Link className='link-color'>KONTAKT</Nav.Link>
@@ -70,7 +69,7 @@ function NavbarMenu() {
     return(<>
           <li sclassName="nav-item" onMouseOver={() => setOpen(true)} onMouseLeave={() => setOpen(false)} onClick={() => setOpen(!open)}>
             <div id='drop' className="nav-link" >
-              SLUŽBY
+              SLUŽBY ▼
             </div>
             {open && props.children}
       </li>
@@ -108,7 +107,3 @@ function NavbarMenu() {
 
 export default NavbarMenu;
 
-
-
-
-/*onMouseLeave={() => setOpen(false)}*/

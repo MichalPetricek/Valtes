@@ -198,5 +198,8 @@ img{
   }
   
 }
+.dropdown-icon{
+  position: absolute;
+}
 
 /*end of dropdown*/

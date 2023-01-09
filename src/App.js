@@ -8,8 +8,9 @@ import Obrabeni from "./Pages/Sluzby/Obrabeni/Obrabeni";
 import Zamprace from "./Pages/Sluzby/Zamprace/Zamprace";
 import Svarovani from './Pages/Sluzby/Svarovani/Svarovani';
 import Techdokum from "./Pages/Sluzby/Techdokum/Techdokum";
-import Stroje from "./Pages/Stroje/Stroje";
+import Technologie from './Pages/Technologie/Technologie';
 import Kontakt from './Pages/Kontakt/Kontakt';
+
 
 const App = () =>{
   return(
@@ -25,7 +26,7 @@ const App = () =>{
               <Route path='/zamprace' element={<Zamprace/>}></Route>
               <Route path='/svarovani' element={<Svarovani/>}></Route>
               <Route path='/techdokum' element={<Techdokum/>}></Route>
-              <Route path='/stroje' element={<Stroje/>}></Route>
+              <Route path='/technologie' element={<Technologie/>}></Route>
               <Route path='/kontakt' element={<Kontakt/>}></Route>
             </Routes>
           </main>

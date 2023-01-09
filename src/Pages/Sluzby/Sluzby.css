@@ -1,0 +1,137 @@
+.obrabeni{
+    background-color: rgb(226, 226, 226);
+    padding-bottom: 20px;
+}
+.obrabeni-main{
+    color: black;
+    font-size: 5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 110px;
+    position: relative;
+    font-weight: bold;
+}
+.main-2{
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #60b3e5;
+    margin-top: 15%;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: calc(1.375rem + 1.5vw);
+}
+.grid2-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    grid-gap: 0px;
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 5px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+
+.text-sluzba{
+    font-size: 30px;
+    padding-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.text-sluzba2{
+    font-size: 30px;
+    padding-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-top: 20%;
+    font-weight: bold;
+}
+.obrabeni-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+}
+.containertext3{
+    margin-top: 40px;
+}
+/*small version*/
+
+@media (max-width: 1720px){
+    .grid2-container{
+        grid-template-columns: 1fr 1fr;
+        max-width: 70%;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .main-2{
+        margin-top: 5%;
+    }
+    .text-sluzba2{
+        padding-top: 5%;
+    }
+    #techdokum-text{
+        font-size: 23px;
+    }
+
+
+  }  
+@media (max-width: 1300px){
+    .main-text{
+        font-size: 60px;
+    }
+    .grid2-container{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-left: 15%;
+    }
+
+  }
+/*end of small version*/
+
+/*mobile version*/
+@media (max-width: 1100px){
+    .grid2-container{
+        grid-template-columns: 1fr;
+        max-width: 80%;
+        margin-left: 10%;
+        padding-right: 0px;     
+    }
+    .grid2-item-text{
+        margin-bottom: 40px;
+    }
+    .obrabeni-img{
+        border-radius: 5px 5px 0 0px;
+    }
+  }
+  @media (max-width: 800px){
+    .obrabeni-main{
+        font-size: 3rem;
+    }
+
+    .text-sluzba{
+        font-size: 23px;
+    }
+    .text-sluzba2{
+        font-size: 23px;
+        padding-top: 5%;
+    }
+    .grid2-container{
+        grid-template-columns: 1fr;
+        max-width: 90%;
+        margin-left: 5%;
+        padding-right: 0px;     
+    }
+
+  }
+
+
+/*end of mobile version*/
+#techdokum-text{
+    padding-top: 10%;
+}

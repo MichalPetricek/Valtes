@@ -2,15 +2,20 @@
 .navbar{
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #fffffff7;
+  background-color: #fffffff7;     /*#fffffff7*/
   width: 100%;
   transition-timing-function: ease-in;
-  transition: 0.7s;
+  transition: 0.5s;
   color: white;
 }
 .nav__grey{
   background-color: rgb(255, 255, 255);
+  height: 120px;
+  padding-top: 40px;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
 }
+
 /*end of navbar style*/
 
 /*logo*/
@@ -36,6 +41,12 @@
 img{
   margin: 5px;
 }
+.img70{
+  margin-bottom: 0px;
+}
+.img110{
+  margin-bottom: 40px;
+}
 
 @media (min-width: 1200px){
   .navbar-expand-xl .navbar-nav .nav-link {
@@ -43,8 +54,8 @@ img{
     margin-left: 30px;
   }
   .navbar{
-    padding-left: 300px;
-    padding-right: 262px;
+    padding-left: 12%;
+    padding-right: 10%;
   }
   .nav-link:after{
     content: "";
@@ -68,9 +79,19 @@ img{
   .link-color{
     background-color: #60b3e5;
   }
+  .link-color2{
+    background-color: #ffffff;
+  }
   .navbar-brand{
     margin-left: 20px;
   }
+  .nav__grey{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    padding-top: 0px;
+    
+  }
+
 }
 
 /*Start of Toggler*/

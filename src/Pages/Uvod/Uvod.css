@@ -12,7 +12,7 @@
     font-size: 6rem;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-    top: 25%;
+    top: 30%;
     position: relative;
     font-weight: bold;
 }
@@ -167,6 +167,9 @@ a:link{
     .containertext3{
         padding-left: 200px;
         padding-right: 200px;
+    }
+    .main-text{
+        font-size: 80px;
     }
 
   }  

@@ -7,3 +7,8 @@
   color: rgb(255, 255, 255);
   background: #60b3e5;
 }
+@media (max-width: 1400px){
+  .slider{
+    display: none;
+  }
+}

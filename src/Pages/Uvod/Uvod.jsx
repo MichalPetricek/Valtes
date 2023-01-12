@@ -6,6 +6,8 @@ import Img1 from "../../Images/Sluzby-uvod/obrabeni.jpg";
 import Img2 from "../../Images/Sluzby-uvod/zamecnicke.jpg";
 import Img3 from "../../Images/Sluzby-uvod/svareni.jpg";
 import Img4 from "../../Images/Sluzby-uvod/dokumentace.jpg";
+import ImgUvod1 from "../../Images/uvod-1.jpg";
+import ImgUvod2 from "../../Images/uvod-2.jpg";
 import { LinkContainer } from "react-router-bootstrap";
 
 const Uvod = () => {
@@ -22,7 +24,7 @@ const Uvod = () => {
                         <Card.Img className="cardimg" variant="top"  src={Img1} />
                             <h3 className="cardtext">Obrábění</h3>
                     </Card>
-                </LinkContainer>    
+                </LinkContainer>
             </div>
             <div className="grid-item 2">
             <Link className="cardsluzby" to={"./zamprace"}>  
@@ -69,6 +71,16 @@ const Uvod = () => {
                 <div className="vysledku3"><div className="dot"></div> Provádíme kontrolu kvality výrobků pro dosažení stanovených parametrů.</div>
             </div>
         </div>
+        {/*grid3 img*/}
+        <div className="grid3-container">
+            <div className="grid3-item-1">
+                <img className="grid3-img"  src={ImgUvod1} alt="" />
+            </div>
+            <div className="grid3-item-2">
+                <img className="grid3-img" src={ImgUvod2} alt="" />
+            </div>
+        </div>
+        {/*end of grid3 img*/}
         <div className="containertext3">
             <h1 className="vysledku">VÝHODY SPOLUPRÁCE S NÁMI</h1>
             <div className="vysledkupad">

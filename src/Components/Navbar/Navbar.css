@@ -4,16 +4,12 @@
   padding-bottom: 0px;
   background-color: #fffffff7;     /*#fffffff7*/
   width: 100%;
-  transition-timing-function: ease-in;
-  transition: 0.5s;
   color: white;
 }
 .nav__grey{
   background-color: rgb(255, 255, 255);
   height: 120px;
   padding-top: 40px;
-  transition-timing-function: ease-in;
-  transition: 0.5s;
 }
 
 /*end of navbar style*/
@@ -70,12 +66,9 @@ img{
   .nav-link:hover:after{
     width: 100%;
   }
-  .nav-link.active:after{
-    width: 100%;
-  }
   
 }
-@media (max-width: 1200px){
+@media (max-width: 1199px){
   .link-color{
     background-color: #60b3e5;
   }

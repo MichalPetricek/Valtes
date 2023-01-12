@@ -18,7 +18,7 @@ function NavbarMenu() {
     setImgmar(false)
     if(window.scrollY > 40)
     {
-      if(window.innerWidth > 1200){
+      if(window.innerWidth >= 1200){
         setShow(false)
       }
       setImg("70")
@@ -27,7 +27,7 @@ function NavbarMenu() {
 
     else{
       setShow(true)
-      if(window.innerWidth > 1200){
+      if(window.innerWidth >= 1200){
         setImg("110")
         setImgmar(true)
       }
@@ -65,16 +65,16 @@ function NavbarMenu() {
           </Navbar.Toggle>  
           <NavbarCollapse id="navbarScroll" className="justify-content-end">
             <Nav className={`link-none ${show && "link-padding"}`} id='active' navbarScroll>
-              <LinkContainer to="/">
-              <Nav.Link className='link-color2'>ÚVOD</Nav.Link>
+              <LinkContainer activeStyle={{color: "#60b3e5",textDecoration:"none"}} to="/">
+              <Nav.Link  className='link-color2'>ÚVOD</Nav.Link>
               </LinkContainer>
               <NavItem>
                 <DropdownMenu></DropdownMenu>
               </NavItem>
-              <LinkContainer to="/technologie">
+              <LinkContainer activeStyle={{color: "#60b3e5",textDecoration:"none"}} to="/technologie">
               <Nav.Link className='link-color2'>TECHNOLOGIE</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/kontakt">
+              <LinkContainer activeStyle={{color: "#60b3e5",textDecoration:"none"}} to="/kontakt">
               <Nav.Link className='link-color'>KONTAKT</Nav.Link>
               </LinkContainer>
             </Nav>
@@ -86,7 +86,7 @@ function NavbarMenu() {
     const [open, setOpen] = useState(false);
     return(<>
           <li sclassName="nav-item" onMouseOver={() => setOpen(true)} onMouseLeave={() => setOpen(false)} onClick={() => setOpen(!open)}>
-            <div id='drop' className="nav-link" >
+            <div id='drop' className="nav-link">
               SLUŽBY ▼
             </div>
             {open && props.children}
@@ -97,22 +97,22 @@ function NavbarMenu() {
   
     return(<>
       <div className={`dropdown ${show && "dropdown-bg"}`}>
-        <LinkContainer to="/obrabeni">
+        <LinkContainer activeStyle={{color: "#60b3e5",textDecoration:"none"}} to="/obrabeni">
           <Nav.Link id='drop-item' className='dropdown-item'>
             OBRÁBĚNÍ
           </Nav.Link>
         </LinkContainer>
-        <LinkContainer to="/zamprace">
+        <LinkContainer activeStyle={{color: "#60b3e5",textDecoration:"none"}} to="/zamprace">
           <Nav.Link id='drop-item' className='dropdown-item'>
             ZÁMEČNICKÉ PRÁCE
           </Nav.Link>
         </LinkContainer>
-        <LinkContainer to="/svarovani">
+        <LinkContainer activeStyle={{color: "#60b3e5",textDecoration:"none"}} to="/svarovani">
           <Nav.Link id='drop-item' className='dropdown-item'>
             SVAŘOVÁNÍ
           </Nav.Link>
         </LinkContainer>
-        <LinkContainer to="/techdokum">
+        <LinkContainer activeStyle={{color: "#60b3e5",textDecoration:"none"}} to="/techdokum">
           <Nav.Link id='drop-item' className='dropdown-item'>
             TECHNICKÁ DOKUMENTACE
           </Nav.Link>

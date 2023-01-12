@@ -12,10 +12,10 @@ import Svarovani from './Pages/Sluzby/Svarovani/Svarovani';
 import Techdokum from "./Pages/Sluzby/Techdokum/Techdokum";
 import Technologie from './Pages/Technologie/Technologie';
 import Kontakt from './Pages/Kontakt/Kontakt';
-import Header from "./Components/Header/Header";
 import ScrollToTop from './Components/ScrollToTop';
 import {FaArrowCircleUp} from 'react-icons/fa';
 import { ScrollBtn } from '../src/Components/ScrollStyle';
+import Footer from "../src/Components/Footer/Footer";
 
 
 const App = () =>{
@@ -66,6 +66,9 @@ const App = () =>{
               </Routes>
             </ScrollToTop>
           </main>
+          <footer>
+            <Footer></Footer>
+          </footer>
         </Router>
     </div>
   );

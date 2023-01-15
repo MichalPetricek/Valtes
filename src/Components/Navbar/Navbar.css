@@ -70,7 +70,7 @@ img{
 }
 @media (max-width: 1199px){
   .link-color{
-    background-color: #60b3e5;
+    background-color: #ffffff;
   }
   .link-color2{
     background-color: #ffffff;
@@ -208,7 +208,8 @@ img{
     color: black;
   }
   #drop{
-    background-color: #60b3e5;
+    background-color: white;
+  
   }
   
 }

@@ -67,12 +67,12 @@ export default function Footer() {
                 </a>
               </p>
               <p  className='text-white'>
-                <a href = "mailto: jiri.jakoube@valtes.cz" className='text-reset'>
-                    <BiMailSend icon="envelope" className="me-2" />jiri.jakoube@valtes.cz
+                <a href = "mailto: daniel.valenta@valtes.cz" className='text-reset'>
+                    <BiMailSend icon="envelope" className="me-2" />daniel.valenta@valtes.cz
                 </a>
               </p>
               <p  className='text-white'>
-                <BiPhoneCall icon="phone" className="me-2" />+420 776 551 423
+                <BiPhoneCall icon="phone" className="me-2" />+420 606 555 782
               </p>
             </MDBCol>
           </MDBRow>

@@ -10,13 +10,17 @@ const Kontakt = () => {
             <div className="grid5-container">
                 <div className="grid5-item1 align-items-stretch">
                     <h3 className="kontakt1"><ImLocation className="icon-kontakt"></ImLocation> Olbrachtova 618, Starý Harcov, 460 15 Liberec</h3>
-                    <h3 className="kontakt2"><GoPerson className="icon-kontakt"></GoPerson> Ing. Jiří Jakoubě
-                        <p className="text-kontakt"><BiPhoneCall className="icon-kontakt2"></BiPhoneCall> +420 776 551 423</p>
-                        <p className="text-kontakt"><BiMailSend className="icon-kontakt2"></BiMailSend> jiri.jakoube@valtes.cz</p>
+                    <h3 className="kontakt2"><GoPerson className="icon-kontakt"></GoPerson> Finance / Jednatel 
+                        <p className="text-kontakt" id="kontakt-jmeno"> Ing. Jiří Jakoubě</p>
+                        <a href="tel:+420776551423" className="text-kontakt"><BiPhoneCall className="icon-kontakt2"></BiPhoneCall> +420 776 551 423</a>
+                        <p></p>
+                        <a href = "mailto: jiri.jakoube@valtes.cz" className="text-kontakt"><BiMailSend className="icon-kontakt2"></BiMailSend> jiri.jakoube@valtes.cz</a>
                     </h3>
-                    <h3 className="kontakt3"><GoPerson className="icon-kontakt"></GoPerson> Ing. Jiří Jakoubě
-                        <p className="text-kontakt"><BiPhoneCall className="icon-kontakt2"></BiPhoneCall> +420 776 551 423</p>
-                        <p className="text-kontakt"><BiMailSend className="icon-kontakt2"></BiMailSend> jiri.jakoube@valtes.cz</p>
+                    <h3 className="kontakt3"><GoPerson className="icon-kontakt"></GoPerson> Výroba
+                        <p className="text-kontakt" id="kontakt-jmeno"> Daniel Valenta</p>
+                        <a href="tel:+420606555782" className="text-kontakt"><BiPhoneCall className="icon-kontakt2"></BiPhoneCall> +420 606 555 782</a>
+                        <p></p>
+                        <a href = "mailto: daniel.valenta@valtes.cz" className="text-kontakt"><BiMailSend className="icon-kontakt2"></BiMailSend> daniel.valenta@valtes.cz</a>
                     </h3>
                 </div>
                 <div className="grid5-item2 align-items-stretch">

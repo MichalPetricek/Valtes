@@ -1,7 +1,7 @@
 .kontakt-page{
     background-color: rgb(226, 226, 226);
     padding-bottom: 40px;
-    padding-top: 12%;
+    padding-top: 9.5%;
     min-height: 100vh
 }
 .grid5-container{
@@ -28,6 +28,12 @@
 .text-kontakt{
     padding-left: 70px;
     font-size: 22px;
+    margin-bottom: 16px;
+    color: black;
+    text-decoration: none;
+}
+.text-kontakt:hover{
+    color: #60b3e5;
 }
 .kontakt1{
     margin-bottom: 50px;
@@ -44,6 +50,13 @@
     height: 100%;
     border-radius: 0px 5px 5px 0px;
 }
+#kontakt-jmeno{
+    padding-left: 80px;
+    margin-bottom: 25px;
+}
+#kontakt-jmeno:hover{
+    color: black;
+}
 
 
 /*small version*/
@@ -54,6 +67,9 @@
     }
     .kontakt1{
         font-size: 20px;
+    }
+    .kontakt-page{
+        padding-top: 12%;
     }
 
 
@@ -70,6 +86,9 @@
 @media (max-width: 1100px){
     .grid5-container{
         grid-template-columns: 1fr;
+    }
+    .map-kontakt{
+        border-radius: 0;
     }
     .grid5-item2{
         height: 600px;
@@ -113,6 +132,11 @@
     .grid5-item1{
         padding: 0px;
         margin-top: 15%;
+    }
+  }
+  @media (max-width: 300px){
+    .text-kontakt{
+        font-size: 15px;
     }
   }
 /*end of mobile version*/

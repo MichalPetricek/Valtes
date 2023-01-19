@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd7ab589.css",
-    "main.js": "/static/js/main.bea6b394.js",
+    "main.css": "/static/css/main.f58e02d8.css",
+    "main.js": "/static/js/main.d34db3e5.js",
     "static/media/background.jpg": "/static/media/background.a2da46a253db4a2142d6.jpg",
     "static/media/uvod-1.jpg": "/static/media/uvod-1.3d860c18556268ac33d1.jpg",
     "static/media/zamprace1.png": "/static/media/zamprace1.26f9645c1222e09dc06f.png",
@@ -21,11 +21,11 @@
     "static/media/vrtacka.png": "/static/media/vrtacka.93e770a592d96941d9d3.png",
     "static/media/obrabeni.jpg": "/static/media/obrabeni.9a03a9a0a6bdb034f9ac.jpg",
     "index.html": "/index.html",
-    "main.dd7ab589.css.map": "/static/css/main.dd7ab589.css.map",
-    "main.bea6b394.js.map": "/static/js/main.bea6b394.js.map"
+    "main.f58e02d8.css.map": "/static/css/main.f58e02d8.css.map",
+    "main.d34db3e5.js.map": "/static/js/main.d34db3e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd7ab589.css",
-    "static/js/main.bea6b394.js"
+    "static/css/main.f58e02d8.css",
+    "static/js/main.d34db3e5.js"
   ]
 }

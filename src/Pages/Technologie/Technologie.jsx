@@ -6,6 +6,7 @@ import Img2 from "../../Images/technologie/vrtacka.png";
 import Img3 from "../../Images/technologie/pila.png";
 import Img4 from "../../Images/technologie/svarovani.png";
 import Img5 from "../../Images/technologie/freza.png";
+import Img6 from "../../Images/technologie/cnc.png";
 
 const Technologie = () => {
     return(
@@ -26,13 +27,15 @@ const Technologie = () => {
                 </div>
                 <div className="grid4-item d-flex align-items-stretch">
                     <Card>
-                        <Card.Img className="cardimg-technologie" variant="top"  src={Img5} />
-                            <h3 className="cardmain-technologie">Frézka vertikální</h3>
+                        <Card.Img className="cardimg-technologie" variant="top"  src={Img6} />
+                            <h3 className="cardmain-technologie">CNC deckel maho DMU 50</h3>
                             <h4 className="cardmain2-technologie">Pracovní parametry:</h4>
                             <Card.Text className="cardtext-technologie">
-                                <p>Maximální délka upnutí materiálu<strong> 3000 </strong>mm</p>
-                                <p>Maximální šíře upnutí<strong> 300 </strong>mm</p>
-                                <p>Maximální výška obrábění<strong> 300 </strong>mm</p>  
+                                <p>Počet os: 5</p>
+                                <p>Posuvy v osách X/Y/Z: <strong>500/420/380</strong> mm</p>
+                                <p>Rychlosti posuvu v osách C/B: <strong>180°/360°</strong></p>
+                                <p>Rozměry pracovního stolu (D x Š): <strong>500 x 380</strong> mm</p>
+                                <p>Maximální hmotnost obrobku: <strong>350 kg</strong></p> 
                             </Card.Text>
                     </Card>
                 </div>
@@ -66,16 +69,29 @@ const Technologie = () => {
                 </div>
                 <div className="grid4-item d-flex align-items-stretch">
                     <Card>
+                        <Card.Img className="cardimg-technologie" variant="top"  src={Img5} />
+                            <h3 className="cardmain-technologie">Frézka vertikální</h3>
+                            <h4 className="cardmain2-technologie">Pracovní parametry:</h4>
+                            <Card.Text className="cardtext-technologie">
+                                <p>Maximální délka upnutí materiálu<strong> 3000 </strong>mm</p>
+                                <p>Maximální šíře upnutí<strong> 300 </strong>mm</p>
+                                <p>Maximální výška obrábění<strong> 300 </strong>mm</p>  
+                            </Card.Text>
+                    </Card>
+                </div>
+                <div className="grid4-item d-flex align-items-stretch">
+                    <Card>
                         <Card.Img className="cardimg-technologie" variant="top"  src={Img2} />
                             <h3 className="cardmain-technologie">Sloupová vrtačka</h3>
                             <h4 className="cardmain2-technologie">Pracovní parametry:</h4>
                             <Card.Text className="cardtext-technologie">
-                                <p>Lze vrtat otvory od 1-40mm následně lze doplnit závity dle požadavku.</p>
+                                <p>Lze vrtat otvory od <strong>1-40</strong> mm následně lze doplnit závity dle požadavku.</p>
                                 <p>Materiál který běžně zpracováváme je ocel,nerez,plast i dřevo.</p>
                                 <p>Typy profilů lze využít téměř všechny hranoly, kulatiny, jekly, ploché tyče apod.</p>   
                             </Card.Text>
                     </Card>
                 </div>
+
             </div>
         </div>
     );

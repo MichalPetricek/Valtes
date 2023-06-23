@@ -9,7 +9,7 @@ const Kontakt = () => {
         <div className="kontakt-page">
             <div className="grid5-container">
                 <div className="grid5-item1 align-items-stretch">
-                    <h3 className="kontakt2"><GoPerson className="icon-kontakt"></GoPerson> Jednatel / Finance
+                    <h3 className="kontakt2"><GoPerson className="icon-kontakt"></GoPerson> Jednatel
                         <p className="text-kontakt" id="kontakt-jmeno"> Ing. Jiří Jakoubě</p>
                         <a href="tel:+420776551423" className="text-kontakt"><BiPhoneCall className="icon-kontakt2"></BiPhoneCall> +420 776 551 423</a>
                         <p></p>

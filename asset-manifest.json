@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f58e02d8.css",
-    "main.js": "/static/js/main.d34db3e5.js",
+    "main.js": "/static/js/main.7701f121.js",
     "static/media/background.jpg": "/static/media/background.a2da46a253db4a2142d6.jpg",
     "static/media/uvod-1.jpg": "/static/media/uvod-1.3d860c18556268ac33d1.jpg",
     "static/media/zamprace1.png": "/static/media/zamprace1.26f9645c1222e09dc06f.png",
@@ -10,6 +10,7 @@
     "static/media/obrabeni2.png": "/static/media/obrabeni2.5756c161ec4846c6c9c7.png",
     "static/media/obrabeni1.png": "/static/media/obrabeni1.04d06894d66a2b417967.png",
     "static/media/soustruh.png": "/static/media/soustruh.f1d6442f29daf31c1812.png",
+    "static/media/cnc.png": "/static/media/cnc.487e5671a2edeb3d1ec5.png",
     "static/media/pila.png": "/static/media/pila.3024f67e628420b7fa7e.png",
     "static/media/freza.png": "/static/media/freza.09aa766c54bb81753853.png",
     "static/media/uvod-2.jpg": "/static/media/uvod-2.9f7d7cb19f8b0df61553.jpg",
@@ -22,10 +23,10 @@
     "static/media/obrabeni.jpg": "/static/media/obrabeni.9a03a9a0a6bdb034f9ac.jpg",
     "index.html": "/index.html",
     "main.f58e02d8.css.map": "/static/css/main.f58e02d8.css.map",
-    "main.d34db3e5.js.map": "/static/js/main.d34db3e5.js.map"
+    "main.7701f121.js.map": "/static/js/main.7701f121.js.map"
   },
   "entrypoints": [
     "static/css/main.f58e02d8.css",
-    "static/js/main.d34db3e5.js"
+    "static/js/main.7701f121.js"
   ]
 }

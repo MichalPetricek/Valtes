@@ -34,8 +34,8 @@ const Header = () => {
            <a href="https://www.google.com/maps/place/FITNESS+LIFE/@50.7610383,15.0956606,20.75z/data=!4m5!3m4!1s0x4709369e55555555:0x45802a8d0066c1bf!8m2!3d50.7610425!4d15.0956195" className="header-text margin-text"><BiHome/> Olbrachtova 618, Starý Harcov, 460 15 Liberec</a>
            <a href="tel:+420606555782" className="header-text"><BiPhoneCall/> +420 606 555 782</a>
            <a href = "mailto: daniel.valenta@valtes.cz" className="header-text"><BiMailSend/> daniel.valenta@valtes.cz</a>
-           <a className="header-text" href='https://www.facebook.com/'><BsFacebook/></a>
-           <a className="header-text" href='https://www.instagram.com/'><BsInstagram/></a>  
+           <a className="header-text" href='https://www.facebook.com/profile.php?id=100095197040188'><BsFacebook/></a>
+           <a className="header-text" href='https://www.instagram.com/valtes_sro/'><BsInstagram/></a>  
         </div>
     );
 }

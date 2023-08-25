@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import "./Footer.css";
 import { BiHome,BiPhoneCall,BiMailSend } from "react-icons/bi";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 export default function Footer() {
@@ -48,13 +48,18 @@ export default function Footer() {
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase text-white fw-bold mb-4'>Sociální sítě</h6>
               <p className='text-white'>
-                <a href='https://www.facebook.com/' className='text-reset'>
+                <a href='https://www.facebook.com/profile.php?id=100095197040188' className='text-reset'>
                 <BsFacebook icon="phone" className="me-2" />Facebook
                 </a>
               </p>
               <p className='text-white'>
-                <a href='https://www.instagram.com/' className='text-reset'>
+                <a href='https://www.instagram.com/valtes_sro/' className='text-reset'>
                 <BsInstagram icon="phone" className="me-2" />Instagram
+                </a>
+              </p>
+              <p className='text-white'>
+                <a href='https://www.linkedin.com/company/valtes-s-r-o/about/?viewAsMember=true' className='text-reset'>
+                <BsLinkedin icon="phone" className="me-2" />LinkedIn
                 </a>
               </p>
             </MDBCol>
